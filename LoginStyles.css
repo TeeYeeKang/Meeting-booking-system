@@ -1,0 +1,134 @@
+header {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #b5b5b5;
+}
+
+.logo-row {
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+.HeaderText{
+    text-align: center; 
+    margin-top: 100px;
+    color: rgba(255, 0, 0, 0.697); 
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px; 
+    font-weight: 800; 
+    line-height: 72px; 
+    text-transform: uppercase;
+}
+
+.IDBox{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin: auto;*/
+    display: block;
+}
+
+.PasswordBox{
+    /*margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;*/
+    margin: auto;
+    display: block;
+}
+
+.LoginSubmit{
+    margin: auto;
+    display: block;
+    background-color:aqua;
+    cursor: pointer;
+}
+
+/* Register.html page*/
+
+.SignUpBox {
+    /*margin: auto;*/
+    margin-left: 130px;
+    display: block;
+    background-color: aqua;
+}
+
+.center {
+    max-width: 500px;
+    margin: auto;
+    margin-left: 600px;
+    /*text-align: center;*/
+    padding-top: 50px;
+}
+
+.alignText{
+    width: 130px;
+    display: inline-block;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 5px 20;
+    font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -10px;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -10px;
+    content: "✖";
+}
+
+.resetPassButton{
+    background-color:aqua;
+    cursor: pointer;
+}
+
+.BackToLogin{
+    text-align:center; 
+    margin-top: 30px;
+}
+
+.ForgerPassLink{
+    text-align:center; 
+    margin-top: 50px;
+}
+
+.NoAccLink{
+    text-align:center; 
+    margin-top: 15px;
+}
+
+.error p {
+	color:#FF0000;
+	font-size:20px;
+	font-weight:bold;
+	margin:50px;
+}
+
